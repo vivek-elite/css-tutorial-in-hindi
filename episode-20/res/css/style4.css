@@ -1,0 +1,13 @@
+button {
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.right {
+    flex:1;
+    text-align: right;
+}

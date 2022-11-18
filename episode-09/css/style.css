@@ -1,0 +1,53 @@
+/* body {
+  background: rgb(180, 200, 230);
+  background: url("https://th.bing.com/th/id/OIP.4Mv52wDULsOEBxT4y9P5hAHaEK?w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2&w=5120&h=2880");
+  background-repeat: no-repeat;
+} */
+
+h2 {
+  /* Color names */
+  color: maroon;
+}
+#title {
+  color: rgb(184, 145, 20);
+}
+.subtitle {
+  color: rgb(245, 198, 47);
+}
+.tour {
+  /* Hex code */
+  /* background-color: #b6d6bf; */
+  margin: 10px;
+  padding: 5px 20px;
+  /* RGB colors */
+  border: 4px dotted rgb(150, 150, 150);
+  border-radius: 10px;
+}
+.tourimage {
+  width: 50%;
+  float: left;
+}
+.features {
+  width: 50%;
+  float: left;
+}
+.clearfloat {
+  clear: both;
+}
+.text-center {
+  text-align: center;
+}
+#image-demo {
+  height: 200px;
+  width: 80%;
+  background: url("https://th.bing.com/th/id/OIP.4Mv52wDULsOEBxT4y9P5hAHaEK?w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2&w=5120&h=2880");
+  background-repeat: no-repeat;
+  background-color: cyan;
+  /* Background Size */
+  /* background-size: 100px 70px; */
+  /* Images fit to background and proportions may change */
+  /* background-size: cover; */
+  /* Images fit to background and proportions do not change */
+  background-size: contain;
+  background-repeat: no-repeat;
+}

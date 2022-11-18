@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: red;
+
+    animation-name: title-animate;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    /* ease ease-in ease-out ease-in-out */
+    
+    /* animation-delay: 2s;
+    animation-iteration-count: 1;  */
+    /* infinite */
+    
+    /* animation-direction: normal; */
+    /* reverse alternate alternate-reverse */
+
+    /* animation: title-animate 2s linear 0s 1 normal; */
+    /* animation: name duration timing-function delay iteration-count direction; */
+}
+
+@keyframes title-animate {
+    from {
+        background: red;
+    }
+    to {
+        background: blue;
+        left:50px;
+        top:50px;
+    }
+
+    /* 0% {
+        background: red;
+    }
+    50% {
+        background: yellow;
+     }    
+    100% {
+        background: blue;
+     }     */
+}

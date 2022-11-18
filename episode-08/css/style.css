@@ -1,0 +1,33 @@
+h2 {
+  /* Color names */
+  color: coral;
+}
+#title {
+  color: rgb(184, 145, 20);
+}
+.subtitle {
+  color: rgb(245, 198, 47);
+}
+.tour {
+  /* Hex code */
+  background-color: #b6d6bf;
+  margin: 10px;
+  padding: 5px 20px;
+  /* RGB colors */
+  border: 4px dotted rgb(150, 150, 150);
+  border-radius: 10px;
+}
+.tourimage {
+  width: 50%;
+  float: left;
+}
+.features {
+  width: 50%;
+  float: left;
+}
+.clearfloat {
+  clear: both;
+}
+.text-center {
+  text-align: center;
+}

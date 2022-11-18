@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Booking</title>
+    </head>
+    <body>
+        <p align="center"><img src="images/main-banner.jpg" alt="Home Page Banner"></p>
+        <h1 align="center">Book a Tour</h1>
+        <hr>
+        <table width="60%" align="center">
+            <caption><h2>Registration Details</h2</caption>
+            <form method="post" action="">
+            <tr>
+                <td><label for="customername">Name</label></td>
+                <td><input type="text" name="customername" placeholder="Please enter name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" name="email" placeholder="Please enter email" required></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile</label></td>
+                <td><input type="tel" name="mobile" pattern="[0-9]{10}" placeholder="Please enter mobile" required></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><input type="text" name="address" placeholder="Please enter address" required></td>
+            </tr>
+            <tr>
+                <td><label for="city">City</label></td>
+                <td><input type="text" name="city" placeholder="City of residence" required></td>
+            </tr>            
+            <tr>
+                <td><label for="state">State</label></td>
+                <td><input type="text" name="state" placeholder="Please enter State" required></td>
+            </tr>                        
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td>
+                    <select name="country">
+                        <option value="India">India</option>
+                        <option value="Canada">Canada</option>
+                        <option value="France">France</option>
+                        <option value="Germany">Germany</option>
+                        <option value="UK">UK</option>
+                        <option value="USA">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="destination">Destination</label></td>
+                <td>
+                    <input type="radio" name="destination" value="Africa">Africa <br>
+                    <input type="radio" name="destination" value="Australia">Australia <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Tour options</td>
+                <td>
+                    <input type="checkbox" name="guide"> Dedicated Guide
+                    <input type="checkbox" name="camping"> Outdoor Camping
+                </td>
+            </tr>   
+            <tr>
+                <td><label for="members">Members</label></td>
+                <td><input type="number" name="members" value="1"></td>
+            </tr>
+            <tr>
+                <td><label for="comments">Comments</label></td>
+                <td><textarea name="comments" rows="4" cols="40" placeholder="Comments / Suggestions"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="submit" value="Submit Details">
+                </td>
+            </tr>
+            </form>
+        </table>
+        <hr>
+        <p align="center">&copy; 2021 CodeWithVivek | Email: <a href="mailto:edupro@atjammu.com">edupro@atjammu.com</a> | Phone: <a href="tel:1111122222">11 111 22 222</a></p>
+    </body>
+</html>

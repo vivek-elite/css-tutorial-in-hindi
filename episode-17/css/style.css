@@ -1,0 +1,27 @@
+body {
+  background: rgba(180, 200, 230, 0.5);
+}
+
+.container {
+  background-color: rgba(180, 200, 230, 0.5);
+  display: flex;
+  flex-direction: row;
+
+  /* display: flex;
+    flex-direction: row; 
+    flex-wrap: nowrap;  */
+}
+
+.item {
+  background-color: rgba(40, 150, 30);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 60px;
+  line-height: 40px;
+  margin: 10px;
+
+  /* width: 60px;
+    line-height: 40px;
+    margin: 10px; */
+}

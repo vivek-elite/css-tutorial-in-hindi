@@ -1,0 +1,1 @@
+Inline, embedded and external styles

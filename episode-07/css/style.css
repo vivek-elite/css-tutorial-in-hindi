@@ -1,0 +1,50 @@
+h2 {
+  color: maroon;
+}
+.tour {
+  background-color: peachpuff;
+  margin: 10px;
+  padding: 5px 20px;
+  border: 2 px dotted maroon;
+  border-radius: 10px;
+}
+.tourimage {
+  width: 50%;
+  float: left;
+}
+.features {
+  width: 50%;
+  float: left;
+}
+.clearfloat {
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img[src*="images/"] {
+  border: 5px dotted blue;
+}
+
+img[src*="store/"] {
+  border: 5px dashed purple;
+}
+
+h1[class~="article-title"] {
+  background-color: plum;
+  padding: 10px;
+}
+
+h2[class|="article-subtitle"] {
+  color: darkblue;
+}
+
+input[type="text"] {
+  background-color: #dadada;
+  color: maroon;
+  font-weight: bold;
+  width: 270px;
+  height: 1.5em;
+}

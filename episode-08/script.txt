@@ -1,0 +1,8 @@
+Color Names
+
+Lets talk about the hex code. We can type color picker in google search. 
+Hex code starts with a hash tag and has 6 digits - three two digit pairs (R,G,B)
+
+RGB Color codes
+rgb(255,255,255)
+

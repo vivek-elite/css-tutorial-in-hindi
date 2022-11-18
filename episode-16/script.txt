@@ -1,0 +1,21 @@
+Display Types & Float
+
+
+Display types:
+
+block - moves everything to its own block i.e. a new line e.g. paragraph
+
+inline - not creates a new block e.g. span
+
+inline-block - kept on the same line but gives a block type spacing
+
+none: makes the item disappear from the web page
+
+Float
+
+left
+right
+inherit
+none
+
+

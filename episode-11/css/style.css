@@ -1,0 +1,26 @@
+#demo {
+  background-color: aquamarine;
+  /* width: 600px; */
+  height: 400px;
+  width: 80%;
+  /* width: 70vw;
+  height: 50vh; */
+}
+#cm {
+  font-size: 1cm;
+}
+#px {
+  font-size: 20px;
+}
+#pt {
+  font-size: 20pt;
+}
+#pc {
+  font-size: 2px;
+}
+#em {
+  font-size: 1.5em;
+}
+#pcnt {
+  font-size: 200%;
+}

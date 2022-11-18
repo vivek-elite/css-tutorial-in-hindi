@@ -1,0 +1,4 @@
+PSEUDOSELECTORS
+hover
+first-child
+last-child

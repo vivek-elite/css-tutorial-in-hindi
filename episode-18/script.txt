@@ -1,0 +1,8 @@
+CSS Flexbox
+Content Alignment
+
+Horizontal Alignment
+justify-content: flex-start / flex-end / center / space-between / space-around
+
+Vertical Alignment
+align-items: stretch / flex-start / flex-end / center / baseline

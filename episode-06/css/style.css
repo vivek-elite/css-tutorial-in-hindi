@@ -1,0 +1,54 @@
+h2 {
+  color: maroon;
+}
+.tour {
+  background-color: peachpuff;
+  margin: 10px;
+  padding: 5px 20px;
+  border: 2 px dotted maroon;
+  border-radius: 10px;
+}
+.tourimage {
+  width: 50%;
+  float: left;
+}
+.features {
+  width: 50%;
+  float: left;
+}
+.clearfloat {
+  clear: both;
+}
+
+/* Proximity selector */
+h2 + a {
+  color: green;
+}
+
+/* Sibling selector */
+textarea ~ button {
+  background-color: purple;
+  color: white;
+}
+
+/* Child selector */
+ul > li {
+  list-style-type: none;
+}
+
+/* Descendant selector */
+ul li {
+  list-style-type: none;
+}
+
+.top h2 {
+  color: aqua;
+}
+
+.top > h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.middle > h2 {
+  font-size: 2em;
+}

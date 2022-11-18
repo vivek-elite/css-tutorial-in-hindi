@@ -1,0 +1,14 @@
+body {
+  /* text-transform: uppercase; */
+  /* text-transform: capitalize; */
+  text-transform: lowercase;
+  width: 50vw;
+}
+.link {
+  text-decoration: none;
+}
+.para {
+  /* text-align: center; */
+  /* text-align: right; */
+  /* text-align: justify; */
+}
